@@ -32,14 +32,8 @@ Dimana:
    
 
 ## 🚀 Cara Menjalankan
-Karena proyek ini berbasis web statis (HTML/CSS/JS), cara menjalankannya sangat mudah:
-
-1. **Clone Repository**
-   ```bash
-   gh repo clone Rayazka/Gacha-Complexity-Analysis
-
-2. **Buka File Buka file index.html menggunakan browser modern (Chrome/Edge/Firefox)**
-   <br>Note: Pastikan terkoneksi dengan internet untuk memuat library Chart.js
+Karena proyek ini berbasis web statis (HTML/CSS/JS), langsung kunjungi tautan berikut:
+<a href="https://rayazka.github.io/Gacha-Complexity-Analysis/"> https://rayazka.github.io/Gacha-Complexity-Analysis/
 
 ## 🧠 Analisis Algoritma
 
