@@ -36,7 +36,7 @@ Karena proyek ini berbasis web statis (HTML/CSS/JS), cara menjalankannya sangat 
 
 1. **Clone Repository**
    ```bash
-   git clone [https://github.com/username-kalian/Gacha-Complexity-Analysis.git](https://github.com/username-kalian/Gacha-Complexity-Analysis.git)
+   gh repo clone Rayazka/Gacha-Complexity-Analysis
 
 2. **Buka File Buka file index.html menggunakan browser modern (Chrome/Edge/Firefox)**
    <br>Note: Pastikan terkoneksi dengan internet untuk memuat library Chart.js
@@ -51,7 +51,7 @@ Menggunakan perulangan for untuk mengalikan peluang kegagalan.<br>
 2. **Algoritma Rekursif**
 Menggunakan fungsi yang memanggil dirinya sendiri (self-calling function). <br>
 - Time Complexity: O(n) — Secara teoritis sama dengan iteratif. Namun, secara real-time lebih lambat karena overhead pemanggilan fungsi. <br>
-- Space Complexity: O(n) — Boros Memori. Setiap pemanggilan fungsi ditumpuk di Call Stack. Jika N terlalu besar (misal > 15.000), akan terjadi Stack Overflo
+- Space Complexity: O(n) — Boros Memori. Setiap pemanggilan fungsi ditumpuk di Call Stack. Jika N terlalu besar (misal > 15.000), akan terjadi Stack Overflof
 
 ---
 <p align="center">
