@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gacha Complexity Analysis</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>💎 Gacha Probability Analyzer</h1>
+            <p>Analisis Kompleksitas Algoritma: Iteratif vs Rekursif</p>
+        </header>
+
+        <div class="input-section">
+            <div class="form-group">
+                <label for="rate">Rate SSR (%)</label>
+                <input type="number" id="rate" placeholder="0.6" step="0.1" min="0" max="100">
+                <small>Rate Kemenangan (0.1 - 100)</small>
+            </div>
+
+            <div class="form-group">
+                <label for="pulls">Jumlah Pull (n)</label>
+                <input type="number" id="pulls" placeholder="100" min="1">
+                <small>Ubah nilai ini secara bertahap (10 -> 1000 -> 10000)</small>
+            </div>
+        </div>
+
+        <div class="button-group">
+            <button onclick="jalankanAnalisis()" class="btn-primary">Mulai Analisis</button>
+            <button onclick="resetData()" class="btn-danger">Reset Data</button>
+        </div>
+
+        <div id="outputContainer" class="output-box hidden">
+            <h3>Hasil Perhitungan:</h3>
+            <p>Peluang mendapatkan setidaknya 1 SSR:</p>
+            <h2 id="resultPercentage">0%</h2>
+            
+            <div class="stats-grid">
+                <div class="stat-card blue">
+                    <span>Iteratif Time</span>
+                    <strong id="timeIteratif">- ms</strong>
+                </div>
+                <div class="stat-card red">
+                    <span>Rekursif Time</span>
+                    <strong id="timeRekursif">- ms</strong>
+                </div>
+            </div>
+            <p id="errorMsg" class="error-text"></p>
+        </div>
+
+        <div class="chart-box">
+            <canvas id="complexityChart"></canvas>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
