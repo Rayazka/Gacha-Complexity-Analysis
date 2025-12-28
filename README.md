@@ -44,15 +44,13 @@ Karena proyek ini berbasis web statis (HTML/CSS/JS), cara menjalankannya sangat 
 ## 🧠 Analisis Algoritma
 
 1. **Algoritma Iteratif (Looping)**
-<br>
-Menggunakan perulangan for untuk mengalikan peluang kegagalan.
-    Time Complexity: O(n) — Waktu eksekusi berbanding lurus dengan jumlah pull.
-    Space Complexity: O(1) — Hanya menggunakan satu variabel penyimpan (totalGagal), sehingga sangat hemat memori.
-
-3. **Algoritma Rekursif**
-<br>
-Menggunakan fungsi yang memanggil dirinya sendiri (self-calling function).
-- Time Complexity: O(n) — Secara teoritis sama dengan iteratif. Namun, secara real-time lebih lambat karena overhead pemanggilan fungsi.
+Menggunakan perulangan for untuk mengalikan peluang kegagalan.<br>
+- Time Complexity: O(n) — Waktu eksekusi berbanding lurus dengan jumlah pull. <br>
+- Space Complexity: O(1) — Hanya menggunakan satu variabel penyimpan (totalGagal), sehingga sangat hemat memori.
+  <br>
+2. **Algoritma Rekursif**
+Menggunakan fungsi yang memanggil dirinya sendiri (self-calling function). <br>
+- Time Complexity: O(n) — Secara teoritis sama dengan iteratif. Namun, secara real-time lebih lambat karena overhead pemanggilan fungsi. <br>
 - Space Complexity: O(n) — Boros Memori. Setiap pemanggilan fungsi ditumpuk di Call Stack. Jika N terlalu besar (misal > 15.000), akan terjadi Stack Overflo
 
 ---
